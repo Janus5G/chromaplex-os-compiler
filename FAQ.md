@@ -21,8 +21,8 @@ Du behøver ikke være programmør for at se systemet i aktion:
 
 ### Hvorfor er projektet gjort open-source?
 Formålet er at flytte 5D optisk datalagring fra abstrakt deep-tech teori til noget, som udviklermiljøet kan validere, eksperimentere med og bygge videre på. 
-Det er desuden for dyrt at hyre eksperter til, at videreudvikle blot for profit for noget der kan være så vigtigt på netop dette tidspunkt, hvor datacentre
-skyder op over alt med omkostninger for miljøet og strømpriserne globalt. 
+
+Det er desuden for dyrt at hyre eksperter til at videreudvikle teknologien udelukkende med profit for øje – især når et lagringsmedie som dette kan være så afgørende netop nu, hvor strømslugende datacentre skyder op overalt med enorme omkostninger for både miljøet og de globale strømpriser.
 
 ### Kan jeg få et interview eller en uddybende kommentar?
 Som nævnt arbejder jeg i øjeblikket på fuld tid med arkitekturen til en ny dansk, local-first søgemaskine. Jeg lader kildekoden, dokumentationen og 3D-simulatoren tale for sig selv, og har derfor ikke mulighed for at stille op til telefoniske interviews.
