@@ -14,6 +14,13 @@ Vi benytter 5 uafhængige laserbølgelængder (350nm UV, 405nm Violet, 473nm Bl�
 ### Hvordan fungerer datakomprimeringen?
 Systemet benytter en algoritme til eksponentiel datakomprimering[cite: 1]. I stedet for at skrive massive rå data-strenge, kodes og gemmes tal matematisk som $2^e + \text{rest}$ i et 32-bit pakket format[cite: 1]. Dette reducerer den fysiske plads, der kræves per datablok markant.
 
+### Hvordan opstod idéen til ChromaPlex og den eksponentielle kodning?
+Konceptet med at bruge eksponentiel kodning (at opløfte i potens) på maskinsprogsniveau har været kendt i årevis, men det har hidtil manglet en reel praktisk anvendelse. Konventionelle lagringsmedier er strengt bundet til det binære system (0 og 1), hvor 8 bits udgør 1 byte (svarende til ét standard ASCII-tegn, mens specialtegn som æ, ø og å kræver 2-4 bytes). 
+
+For at bryde disse binære lænker udfordrede jeg en avanceret AI til at co-udvikle et programmeringssprog, der kunne koble den matematiske komprimering direkte sammen med 5D optisk lagring. AI'en var indledningsvist meget skeptisk. Tidligere fysiske tests med krystallagring har nemlig kæmpet med problemer som massiv varmeudvikling, når data brændes ind i glasset. 
+
+Gennembruddet – og fundamentet for ChromaPlex – opstod, da jeg foreslog et skift i den fysiske tilgang til problemet: I stedet for at bruge én enkelt, kraftig laserstråle (som i hidtidige eksperimenter), bruger vi lyset til at flytte dataene og anvender *flere* parallelle laserstråler til skrivningen. Denne fordeling af energien over flere bølgelængder løser problemet med varmeudvikling og åbner samtidig døren for den massive vinkelmultipleksing, som systemet benytter.
+
 ### Hvordan kan jeg som journalist eller udvikler teste det?
 Du behøver ikke være programmør for at se systemet i aktion:
 1. **For alle:** Du kan afprøve de teoretiske principper interaktivt via vores [live 3D-simulator i browseren](https://Janus5G.github.io/chromaplex-os-compiler/).
