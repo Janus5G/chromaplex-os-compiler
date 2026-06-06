@@ -10,6 +10,8 @@ Her finder du den komplette virtuelle maskine (VM), CPA-assembleren (ChromaPlex 
 
 🎮 **[Prøv 3D Simulatoren direkte i browseren her](https://Janus5G.github.io/chromaplex-os-compiler/)**
 
+## ℹ️ **[Er du fra pressen? Læs vores FAQ her for hurtige svar.](FAQ.md)**
+
 ---
 ### Installation og test
 For at trække projektet ned og køre det lokalt:
