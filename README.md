@@ -1,3 +1,23 @@
+# ChromaPlex OS Compiler Toolchain
+
+Velkommen til maskinrummet for fremtidens optiske datalagring. Dette repository indeholder den fuldt eksekverbare software-stack for ChromaPlex OS – et sprog bygget til 5D-datalagring i glaskrystaller (*fused silica*). 
+
+Her finder du den komplette virtuelle maskine (VM), CPA-assembleren (ChromaPlex Assembly) og CPL-compileren. Det er her, de teoretiske principper om massiv parallelitet, eksponentiel datakomprimering og vinkelmultipleksing bliver omsat til reel, testbar kode.
+
+🔗 **[Hovedprojekt: Se selve ChromaPlex programmeringssproget og kildekoden her](https://github.com/Janus5G/chromaplex-os)**
+
+👉 **[Forstå fysikken og arkitekturen: Læs den fulde ChromaPlex v2.0 specifikation her](https://github.com/Janus5G/ChromaPlex-v2.0-Specification-Architecture-Documentation)**
+
+🎮 **[Prøv 3D Simulatoren direkte i browseren her](https://Janus5G.github.io/chromaplex-os-compiler/)**
+
+---
+### Installation og test
+For at trække projektet ned og køre det lokalt:
+
+```bash
+git clone [https://github.com/Janus5G/chromaplex-os-compiler.git](https://github.com/Janus5G/chromaplex-os-compiler.git)
+cd chromaplex-os-compiler
+pip install -e .
 # ChromaPlex OS
 
 ChromaPlex OS er et domænespecifikt sprog (DSL) designet til at styre laser-baseret læsning/skrivning i 3D-krystaller (fused silica).
