@@ -1,8 +1,8 @@
 # ChromaPlex OS Compiler Toolchain
 
-Velkommen til ChromaPlex OS Compiler Toolchain, et eksperimentelt softwareprojekt til simulering af optisk inspireret datalagring. Dette repository indeholder “en eksekverbar Python-baseret software-stack med CLI, compiler, assembler, virtuel maskine og simuleret lager. for ChromaPlex OS – et sprog bygget til 5D-datalagring i glaskrystaller (*fused silica*). 
+Velkommen til maskinrummet for fremtidens optiske datalagring. Dette repository indeholder en eksekverbar software-stack for ChromaPlex OS – et eksperimentelt sprog og værktøjssæt designet til at modellere 5D optisk datalagring i glaskrystaller (*fused silica*).
 
-Her finder du den komplette virtuelle maskine (VM), CPA-assembleren (ChromaPlex Assembly) og CPL-compileren. Det er her, idéerne om parallel optisk adressering, eksponentiel talrepræsentation og bølgelængde-/vinkelmultipleksing bliver omsat til testbar simulator- og VM-kode.
+Her finder du den virtuelle maskine (VM), CPA-assembleren (ChromaPlex Assembly) og CPL-compileren. Det er her, idéerne om rumlig voxel-adressering, bølgelængdekanaler, optisk multipleksing og eksponentiel talrepræsentation bliver omsat til testbar simulator- og VM-kode.
 
 🔗 **[Hovedprojekt: Se selve ChromaPlex programmeringssproget og kildekoden her](https://github.com/Janus5G/chromaplex-os)**
 
