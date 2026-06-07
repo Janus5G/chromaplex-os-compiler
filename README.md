@@ -13,13 +13,17 @@ Her finder du den virtuelle maskine (VM), CPA-assembleren (ChromaPlex Assembly) 
 ## ℹ️ **[Er du fra pressen? Læs vores FAQ her for hurtige svar.](FAQ.md)**
 
 ---
-### Installation og test
+
+## Installation og test
+
 For at trække projektet ned og køre det lokalt:
 
 ```bash
-git clone [https://github.com/Janus5G/chromaplex-os-compiler.git](https://github.com/Janus5G/chromaplex-os-compiler.git)
+git clone https://github.com/Janus5G/chromaplex-os-compiler.git
 cd chromaplex-os-compiler
 pip install -e .
+```
+
 # ChromaPlex OS
 
 ChromaPlex OS er et domænespecifikt sprog (DSL) designet til at styre laser-baseret læsning/skrivning i 3D-krystaller (fused silica).
@@ -35,37 +39,37 @@ ChromaPlex OS er et domænespecifikt sprog (DSL) designet til at styre laser-bas
 
 Kræver Python 3.9+.
 
-```
+```bash
 pip install -e .
 ```
 
 ## Brug
 
-```
+```bash
 chromaplex compile program.cpl -o program.bin
 chromaplex run program.bin
-chromaplex run --source program.cpl
+chromaplex run program.cpl --source
 ```
 
 ## Projektstruktur
 
-```
+```text
 chromaplex_os/
-    __init__.py          - Pakkeinitiering
-    spec.py              - Specifikationer og konstanter
-    assembler.py         - CPA assembler
-    compiler.py          - CPL compiler
-    vm.py                - Virtual Machine
-    storage.py           - Krystalsimulering
-    hardware.py          - Laserhardware-simulering
-    cli.py               - Kommandolinjeinterface
-    visual_demo.py       - Visualiseringsværktøj
+    __init__.py             - Pakkeinitiering
+    spec.py                 - Specifikationer og konstanter
+    assembler.py            - CPA assembler
+    compiler.py             - CPL compiler
+    vm.py                   - Virtual Machine
+    storage.py              - Krystalsimulering
+    hardware.py             - Laserhardware-simulering
+    cli.py                  - Kommandolinjeinterface
+    visual_demo.py          - Visualiseringsværktøj
     visualization_viewer.py - Visualisering af krystaldata
 examples/
-    hello.cpl            - Simpelt CPL program
-    fibonacci.cpl        - Fibonacci demonstration
+    hello.cpl               - Simpelt CPL program
+    fibonacci.cpl           - Fibonacci demonstration
     generate_visualization.cpl - Visualiseringsdatagenerator
 tests/
-    test_assembler.py    - Assembler tests
-setup.py                 - Installationsscript
+    test_assembler.py       - Assembler tests
+setup.py                    - Installationsscript
 ```
