@@ -73,3 +73,6 @@ tests/
     test_assembler.py       - Assembler tests
 setup.py                    - Installationsscript
 ```
+## Relaterede repositories
+
+- [Cplex editor til ChromaPlex/CPL](https://github.com/Janus5G/Cplex)
