@@ -36,7 +36,7 @@ ChromaPlex OS er et domænespecifikt sprog (DSL) designet til at styre laser-bas
 - **To sprog**: CPA (Assembly) og CPL (Højniveau)
 
 ## BEMÆRKNING TIL VERSION 
-For at få en ikke ændret eller fejlrettet version forbliver .json og unpakc_chromaplex.py det samme vil du ha en fejlrettet version
+For at få en ikke ændret eller fejlrettet version forbliver .json og unpack_chromaplex.py det samme vil du ha en fejlrettet version
 der virker med det nyeste udviklerværktøjer jeg laver så download .zip i stedet. 
 
 ## Installation
